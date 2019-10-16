@@ -2,8 +2,8 @@
   "name": "add-repo",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://vladoster.github.io/app-repo/",
   "main": "index.js",
+  "homepage": "https://vladoster.github.io/app-repo/",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
     "build": "react-scripts build",
@@ -15,6 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "cross-env": "^5.2.0",
+    "gh-pages": "^2.1.1",
     "react-hot-loader": "^4.9.0",
     "react-scripts": "^3.1.2"
   },
@@ -28,5 +29,17 @@
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
